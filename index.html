@@ -11,64 +11,71 @@
     <header>
         <nav>
             <div class="logo">
-                <h3>Sang</h3>
+                <a href="index.html"><h1>Sang</h1></a>
             </div>
             <div class="navigation">
                 <ul>
-                    <li>About Me</li>
-                    <li>Project</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="contact/contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <div class="banner">
-        <div class="overlay">
+        <div class="overlay1">
 
         </div>
         <div class="block-quote">
-            <p>This is just a demo</p>
+            <p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</p>
         </div>
     </div>
     <main>
-        <div class="about-me">
+        <div id="about-me">
             <div class="article">
                 <h2>About Me</h2>
             <article>
-                <p>Howdy! I'm Lalngaisang Touthang, Sasang to be short and welcome to my page. I've been in the business of programming for quite a few years now. I have great delight and interest in coding. Ever since the first time I wrote my "hello, world!" program, I've been hooked on to it.
+                <p>Howdy! I'm Lalngaisang Touthang, Sasang to be short, and welcome to my page. I've been in the business of programming for quite a few years now. I have great delight and interest in coding. Ever since the first time I wrote my "hello, world!" program, I've been hooked on to it.
                     <br><br>
-                  Besides coding, I have great enthusiasm in philosophy. I delight myself in reading great philosophical treatises.
+                  Besides coding, I have great fascination with philosophy. I delight myself in reading great philosophical treatises.
                     <br><br>
-                  That's all I can say about myself and last but not least, WELCOME TO MY CRIB.
+                  That's all I can say about myself and last but not least, WELCOME TO MY CRIB!
                 </p>
             </article>
             </div>
             <div class="profile">
-                <img src="Resources/janko-ferlic-GWFffQS5eWU-unsplash.jpg" alt="">
+                <img src="Resources/janko-ferlic-GWFffQS5eWU-unsplash.jpg" alt="profile-picutre">
             </div>
         </div>
-        <div class="projects">
+        <div id="projects">
             <h2>Projects</h2>
             <div class="project">
                 <div class="first-project">
-
+                    <div class="overlay"><h3>Style Sheet</h3></div>
+                    <a href="https://sasang-touthang.github.io/styleguide.github.io/"><img src="Resources/project-1.png" alt="project-1 image"></a>
                 </div>
                 <div class="second-project">
-
+                    <div class="overlay"><h3>Teacozy</h3></div>
+                    <a href="https://sasang-touthang.github.io/teacozy.github.io/"><img src="Resources/project-2.png" alt="second-project image"></a>
                 </div>
                 <div class="third-project">
-
+                    <div class="overlay"><h3>Fotomatic</h3></div>
+                    <a href="https://sasang-touthang.github.io/fotomatic.github.io/"><img src="Resources/project-3.png" alt="third-project image"></a>
                 </div>
             </div>
         </div>
-        <div class="skills">
+        <div id="skills">
             <h2>Skills</h2>
             <p>- HTML <br> - CSS <br>- Javascript <br>- git <br>- github</p>
         </div>
+        <button id="button1">Dark Mode</button>
+        <button id="button2">Light Mode</button>
+       
     </main>
     <footer>
         <p>Developed by Sasang Touthang</p>
     </footer>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
